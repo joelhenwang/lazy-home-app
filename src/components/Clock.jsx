@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react";
 
 function Clock() {
+    
     const todayDate = new Date();
     
-
-
-
     const [time, setTime] = useState(todayDate.toLocaleTimeString('pt-PT'));
 
     useEffect( () => {

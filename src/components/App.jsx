@@ -1,14 +1,16 @@
 import React, {Fragment} from "react";
-import Mainpage from "./Mainpage";
+import {Mainpage} from "./Mainpage";
 import Footer from "./Footer";
 import Header from "./Header";
-import Container from "./Container";
+//import Container from "./Container";
 import Sidebar from "./Sidebar";
 function App(){
     return(
         <Fragment>
             <Sidebar />
-            <Mainpage />
+            <Mainpage>
+                <Header />
+            </Mainpage>
             <Footer />
         </Fragment>
     );

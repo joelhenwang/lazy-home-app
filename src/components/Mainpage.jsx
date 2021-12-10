@@ -1,12 +1,8 @@
-import React from "react";
-import Header from "./Header";
+//import React from "react";
+import styled from "styled-components";
+//import Header from "./Header";
 
-function Mainpage() {
-    return (
-        <div className = "mainPage">
-            <Header />
-        </div>
-    );
-}
 
-export default Mainpage;
+export const Mainpage = styled.div`
+    padding-left: 60px;
+`;
